@@ -4,7 +4,6 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-
 public class ConexionDB extends SQLiteOpenHelper {
 
     //se declara el logtag, el nombre de la base de datos y la version de esta

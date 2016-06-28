@@ -24,6 +24,7 @@
     <string name="Entre_Calles">Entre calles</string>
     <string name="codigo_postal">Codigo Postal</string>
     <string name="correo_electronico">Correo electronico</string>
+    <string name="modificar">modificar</string>
     <string name="no_de_col">No. de colonia</string>
     <string name="no_de_loc">No de localidad</string>
     <string name="no_de_cd">No. de ciudad</string>

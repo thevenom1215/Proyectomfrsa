@@ -32,18 +32,6 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/calle1"
-        android:id="@+id/calle1" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/calle2"
-        android:id="@+id/calle2" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:hint="@string/no_de_col"
         android:id="@+id/no_de_col" />
 
@@ -53,22 +41,11 @@
         android:text="@string/consultar"
         android:id="@+id/consultar" />
 
-    <ScrollView
+    <ListView
+        android:id="@+id/lista"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/scrollView" >
-
-        <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:id="@+id/datos" />
-        </TableLayout>
-
-    </ScrollView>
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice">
+    </ListView>
 
 </TableLayout>
